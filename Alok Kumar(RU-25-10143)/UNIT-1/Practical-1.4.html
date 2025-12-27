@@ -1,0 +1,40 @@
+<html >
+<head>
+  <title>Practical 4 </title>
+</head>
+<body>
+  <h2>Citizenship</h2>
+  <form >
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br><br>
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+    <label>Contact Method:</label><br>
+    <input type="checkbox" id="contactEmail" name="contact[]" value="Email">
+    <label for="contactEmail">Email</label><br>
+    <input type="checkbox" id="contactPhone" name="contact[]" value="Phone">
+    <label for="contactPhone">Phone</label><br> 
+    <input type="checkbox" id="contactSMS" name="contact[]" value="SMS">
+    <label for="contactSMS">SMS</label><br><br>
+    <label for="State">State:</label>
+  <br><br>
+   <select id="state" name="state">
+  <option value="Bihar">Bihar</option>
+  <option value="Jharkhand">Jharakhand</option>
+  <option value="Chattishgarh">Chattishgarh</option>
+  <option value="Odisha">Odisha</option>
+  <option value="West Bengal">West Bengal</option>
+  <option value="Uttar Pradesh">Uttar Pradesh</option>
+  </select>
+  <br><br><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

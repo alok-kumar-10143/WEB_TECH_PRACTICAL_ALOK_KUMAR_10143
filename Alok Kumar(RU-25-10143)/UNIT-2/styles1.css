@@ -1,0 +1,29 @@
+* {
+  font-family: Arial, sans-serif;
+}
+
+#main-title {
+  color: rgb(19, 19, 236);
+  text-align: center;
+}
+
+.intro {
+  font-size: 18px;
+  color: rgb(193, 18, 38);
+}
+
+.container p {
+  background-color: #47bff7;
+  padding: 10px;
+}
+
+h1, footer p {
+  border-bottom: 2px solid #f00e0e;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+

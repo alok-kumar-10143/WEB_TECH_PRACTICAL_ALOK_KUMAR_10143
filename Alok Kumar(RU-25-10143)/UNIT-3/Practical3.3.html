@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope Demonstration</title>
+</head>
+<body>
+    <script>
+function greet(name) {
+  document.write("Hello " + name + '<br>');
+}
+function add(a, b) {
+  return a + b;
+}
+greet("Alok");
+document.write(add(5, 3));
+var x = 10;
+let y = 20;
+const z = 30;
+document.write(x+ '<br>', y+ '<br>', z+ '<br>');
+function testScope() {
+  var x = 1;
+  let y = 2;
+  const z = 3;
+  document.write("Inside function: "+ '<br>', x+ '<br>', y+ '<br>', z+ '<br>');
+}
+testScope();
+document.write("Outside function:"+ '<br>', x+ '<br>', y+ '<br>', z+ '<br>');
+    </script>
+</body>
+</html>
+
+
+
+

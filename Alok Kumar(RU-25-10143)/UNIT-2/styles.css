@@ -1,0 +1,8 @@
+.external-style{
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  border: black;
+  font-size: 15px;
+  cursor: crosshair;
+}
